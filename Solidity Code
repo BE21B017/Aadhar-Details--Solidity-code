@@ -1,0 +1,34 @@
+pragma solidity >=0.7.0 <0.9.0;
+
+
+function getperson(
+	string memory,
+	string memory,
+    uint DateofBirth;
+	string memory){
+	uint i;
+	for(i=0;i<pers.length;i++)
+	{
+		Person memory p
+			=pers[i];
+		
+		// Looks for a matching
+		// Aadharnumber
+		if(p.AadharNumber==Aadharnumber)
+		{
+				return(p.Name,
+					p.DateofBirth,
+					p.Address
+                    p.WalletAddress);
+		}
+	}
+	
+	// If provided Person
+	// Aadharnumber is not present
+	// it returns Not
+	// Found
+	return("Not Found",
+			"Not Found",
+			"Not Found");
+}
+}
